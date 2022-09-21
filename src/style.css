@@ -1,1 +1,16 @@
-/* styles go here */
+.form-field {
+  display: block;
+
+}
+
+.groups {
+  margin-bottom: 20px;
+}
+
+.field:focus {
+  background-color: lightgreen;
+}
+
+.form-field:not(:last-child) {
+  margin-bottom: 10px;
+}
